@@ -2,6 +2,8 @@ import React from 'react';
 import exampleImage from './../Image/logo1.jpg';
 import banner from './../Image/banner.png';
 import content from './../Image/arrow.png';
+import image1 from './../Image/Jar.jpg';
+
 
 function LandingPage() {
     return (
@@ -37,6 +39,39 @@ function LandingPage() {
                     <img src={banner} alt="Banner" />
                     <div className="banner-content">
                     </div>
+                </div>
+            </section>
+            {/* section 3 */}
+            <section className='p-20px'>
+                <div className='content'>
+                    <div>
+                        <img src={content} />
+                    </div>
+                    <div>
+                        <lable>What is Lorem Ipsum?</lable>
+                    </div>
+                </div>
+                <div>
+                    LoremIpsumissimplydummytextoftheprintingandtypesettingindustry.
+                </div>
+                <div class=".container"> 
+                <div class="row mt-35px">
+                    <div class="column" >
+                    <img src={image1} />
+                        <h2 className='text-red .text-align-center'>Where does it come from?</h2>
+                        <p className='fs-14px .text-align-center text-blue'>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                    </div>
+                    <div class="column" >
+                    <img src={image1} />
+                        <h2 className='text-red .text-align-center'>Where does it come from?</h2>
+                        <p className='fs-14px text-blue .text-align-center'>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                    </div>
+                    <div class="column" >
+                    <img src={image1} />
+                        <h2 className='text-red .text-align-center'>Where does it come from?</h2>
+                        <p className='fs-14px text-blue .text-align-center'>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                    </div>
+                </div>
                 </div>
             </section>
         </div>
