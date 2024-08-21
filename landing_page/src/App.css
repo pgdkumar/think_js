@@ -230,3 +230,33 @@
 .mt-35px{
   margin-top: 35px;
 }
+.mt-65px{
+  margin-top: 150px;
+}
+.container {
+  display: flex; 
+ 
+  gap: 20px; 
+  padding: 20px; 
+}
+
+.image-side {
+  flex: 1; 
+}
+
+.image-side img {
+  width: 100%; 
+  height: auto;
+  border-radius: 8px;
+}
+
+.content-side {
+  flex: 2; 
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .container {
+      flex-direction: column;
+  }
+}
