@@ -1,5 +1,8 @@
 import React from 'react';
 import exampleImage from './../Image/logo1.jpg';
+import banner from './../Image/banner.png';
+import content from './../Image/arrow.png';
+
 function LandingPage() {
     return (
         <div>
@@ -27,6 +30,14 @@ function LandingPage() {
 
                     </div>
                 </nav>
+            </section>
+            {/* section 2 */}
+            <section>
+                <div className="banner">
+                    <img src={banner} alt="Banner" />
+                    <div className="banner-content">
+                    </div>
+                </div>
             </section>
         </div>
     )
